@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container-2 {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.container-2 input {
+  /* Your styles here */
+  width: 30%;
+  color: black;
+  height: 20px; /* Example: Makes input elements fill the width of the container */
+  padding: 30px; /* Example: Adds padding around input elements */
+  margin-bottom: 0px; /* Example: Adds margin between input elements */
+  border: 1px solid #ccc; /* Example: Adds a border around input elements */
+  border-radius: 25px; /* Example: Adds rounded corners to input elements */
+  margin-top: 10px;
+}
+
+.container-2 input::placeholder {
+  color: black; /* Change to desired color */
+}
+
+.container-2 button {
+  padding: 20px;
+  border-radius: 50px;
+  width: 130px;
+  font-weight: 500;
+  background-color: #2254dc;
+  color: white;
+  border: 1px solid white;
+  margin-top: 10px;
+}

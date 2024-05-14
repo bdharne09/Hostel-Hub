@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+}
+
+.container-1 {
+  height: 500px;
+  background-color: black;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-left: 280px;
+  margin-top: 50px;
+  gap: 17px;
+}
